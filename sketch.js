@@ -83,7 +83,7 @@ function draw(){
         
             
         }
-        if(frameCount% 15== 0 ){
+        if(frameCount% 10== 0 ){
             nukeyFun = createSprite(alex.x, alex.y)
             nukeyFun.addImage(NFImg)
             nukeyFun.scale = 0.125
