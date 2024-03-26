@@ -83,11 +83,11 @@ function draw(){
         
             
         }
-        if(frameCount% 10== 0 ){
+        if(frameCount% 15== 0 ){
             nukeyFun = createSprite(alex.x, alex.y)
             nukeyFun.addImage(NFImg)
             nukeyFun.scale = 0.125
-            nukeyFun.velocityX = -25
+            nukeyFun.velocityX = -35
             missles.add(nukeyFun)
         }
         var rand= random(1, 100)
